@@ -1,0 +1,33 @@
+.nav {
+    grid-area: n;
+    min-height: 700px;
+    width: 240px;
+    background-color: #444649;
+    color: #CCC;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: .3s;
+    /*position: fixed;*/
+    /*top:60px;*/
+    overflow: auto;
+    /*z-index: 9999999;*/
+    padding: 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: #81e291;
+}
+
+.item {
+    font-size: 18px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
